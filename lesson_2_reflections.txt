@@ -6,14 +6,20 @@ It offers the possibility of commiting only files related to the change that mot
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+It is possible to compare the file that is in stage area and the last commit, in this way it is possible verify if there is any logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+It is usefull when the developer would try some experimental new features and has doubts about it.
 
 How do the diagrams help you visualize the branch structure?
+It is a visual representation of the branch, it is easy to see the evolution if the project.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It turns the commits of the branches merged reachable by the master branch. It is represented in diagrams to understand the logic of each branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pros: It saves a lot of time of looking for differences in the code
+Cons: 
